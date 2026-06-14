@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="60%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Plate -->
+  <circle cx="256" cy="240" r="130" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="256" cy="240" r="130" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+
+  <!-- Leaf / salad shapes -->
+  <ellipse cx="246" cy="228" rx="26" ry="17" fill="#ffffff" transform="rotate(-20 246 228)" opacity="0.95"/>
+  <ellipse cx="272" cy="222" rx="20" ry="14" fill="#ffffff" transform="rotate(15 272 222)" opacity="0.85"/>
+  <ellipse cx="252" cy="252" rx="22" ry="13" fill="#ffffff" transform="rotate(5 252 252)" opacity="0.75"/>
+
+  <!-- Small dots -->
+  <circle cx="232" cy="222" r="4" fill="#fde68a"/>
+  <circle cx="280" cy="245" r="3" fill="#fde68a"/>
+  <circle cx="262" cy="210" r="2.5" fill="#fde68a"/>
+
+  <!-- Camera/scan icon top -->
+  <rect x="208" y="110" width="96" height="64" rx="14" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="256" cy="142" r="20" fill="none" stroke="white" stroke-width="6"/>
+  <circle cx="256" cy="142" r="8" fill="white"/>
+  <rect x="232" y="98" width="20" height="14" rx="4" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- NV text -->
+  <text x="256" y="425" text-anchor="middle" fill="white" font-size="64" font-weight="800" font-family="Arial, sans-serif" letter-spacing="4">NV</text>
+</svg>
